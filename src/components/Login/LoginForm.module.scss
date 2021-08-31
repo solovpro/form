@@ -1,0 +1,75 @@
+.form {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #191970;
+    font-weight: 600;
+    margin: -5px 0 5px 0;
+  }
+  .inOk {
+    font-size: 25px;
+    color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    .name {
+      font-size: 20px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 7px;
+    }
+  }
+
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    .input {
+      margin: 7px 0;
+    }
+
+    .error {
+      font-size: 14px;
+      color: red;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .button {
+    width: 150px;
+    height: 30px;
+    background-color: #191970;
+    color: white;
+    margin: 10px 150px;
+    cursor: pointer;
+  }
+
+  .registr {
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      background-color: #DDD;
+      color: #191970;
+      font-size: 17px;
+      width: 85px;
+      border: none;
+      margin: 0 0 0 5px;
+      text-decoration: none;
+      text-transform: none;
+    }
+  }
+}
